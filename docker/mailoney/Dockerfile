@@ -2,7 +2,9 @@ FROM alpine
 
 # Install packages
 RUN apk -U --no-cache add \
-            autoconf \
+            autoconf 
+            
+RUN apk -U --no-cache add \
             automake \
             build-base \
             git \
